@@ -8,6 +8,7 @@ const admin_schema = new schema(
         email:{type : String, required: true},
         phno: {type: Number, required: true},
         password : {type : String , required: true},
+        role: {typr: String ,required: true}
     },
     {timestamps:true}
 )
